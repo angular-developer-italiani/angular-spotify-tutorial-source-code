@@ -1,0 +1,7 @@
+{
+  "/authorize/*": {
+    "target": "https://accounts.spotify.commm",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

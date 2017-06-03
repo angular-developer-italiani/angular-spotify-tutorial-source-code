@@ -1,0 +1,11 @@
+
+.cover {
+    width: 100%;
+    border: 6px solid #ececec;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 6px dashed #e45343;
+}

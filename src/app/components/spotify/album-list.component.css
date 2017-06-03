@@ -1,0 +1,9 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    flex-grow: 1;
+    width: 31%;
+    padding: 1%;
+}

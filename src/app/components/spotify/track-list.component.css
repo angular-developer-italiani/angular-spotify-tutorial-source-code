@@ -1,0 +1,41 @@
+.modal-content{
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+}
+.artist-name {
+    font-size: 34px;
+    padding: 20px;
+    color: white;
+}
+.album-name {
+    font-size: 24px;
+    padding: 20px;
+    border-bottom: 2px dotted #666;
+    color: #ccc;
+}
+.tracks-list {
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    top: 120px;
+    bottom: 0;
+    overflow: auto;
+}
+.track {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.close-button {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+}
