@@ -1,8 +1,14 @@
 # Angular (4.x) Spotify Player - Tutorial source code
 
-Videos: coming soon (italian only)
+
 
 ![Output Preview](spotify-preview-ani.gif "Output Preview")
+
+## Videos (italian only)
+
+## You can watch this YouTube playlist to see how I wrote this example
+
+> #### UPDATE: Spotify has now closed all its public API. <br>  Now we need to get and inject a token to every XHR request. So I have updated `SpotifyAPIService` in order to work. 
 
 
 ## Development server
