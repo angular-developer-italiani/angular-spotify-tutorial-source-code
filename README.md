@@ -7,11 +7,11 @@ Videos: coming soon (italian only)
 
 ## Development server
 
-1. In order to avoid CORS issues, download the [Allow-Control-Allow-Origin:*](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en) Chrome Extension
+1. Download the [Allow-Control-Allow-Origin:*](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en) Chrome Extension to avoid CORS issues
 
 2. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-> NOTE: in order to work you must [register your own](https://developer.spotify.com/web-api/authorization-guide/) Spotify Application and replate `client_id` and `client_secret` in `SpotifyAPIService`
+3. You must [register your own Spotify Application](https://developer.spotify.com/web-api/authorization-guide/) and replace `client_id` and `client_secret` in `SpotifyAPIService`
 
 ```typescript
 export class SpotifyAPIService {
