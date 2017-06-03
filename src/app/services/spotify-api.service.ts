@@ -9,10 +9,7 @@ export class SpotifyAPIService {
   private accessToken: any;
   private tokenType: string;
 
-  constructor(private http: Http) {
-
-
-  }
+  constructor(private http: Http) { }
 
   login() {
     let authorizationTokenUrl = `https://accounts.spotify.com/api/token`;
