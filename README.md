@@ -6,7 +6,7 @@
 
 ## Videos (italian only)
 
-## You can watch this YouTube playlist to see how I wrote this example
+You can watch this [YouTube playlist](https://www.youtube.com/playlist?list=PLUioGv_6G9YJ7nH0T43snvKLXc00FAuH1) to see how I wrote this example
 
 > #### UPDATE: Spotify has now closed all its public API. <br>  Now we need to get and inject a token to every XHR request. So I have updated `SpotifyAPIService` in order to work. 
 
