@@ -3,8 +3,8 @@ import { Http, RequestOptions, Headers } from '@angular/http';
 
 @Injectable()
 export class SpotifyAPIService {
-  client_id = "c45325aad4bc420ca34fb1bdfe9a2ab1";
-  client_secret = "f752ef01bed04d4b87a459ed56eda73f";
+  client_id = "[YOUR API KEY]";
+  client_secret = "[YOUR SECRET KEY]";
 
   private accessToken: any;
   private tokenType: string;
