@@ -10,7 +10,7 @@ You can watch this [YouTube playlist](https://www.youtube.com/watch?v=kz3EPSpH4X
 
 > #### UPDATE: Spotify has now closed all its public API. <br>  Now we need to get and inject a token to every XHR request. So I have updated `SpotifyAPIService` in order to work. 
 
-
+x2
 ## Development server
 
 1. Download the [Allow-Control-Allow-Origin:*](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en) Chrome Extension to avoid CORS issues

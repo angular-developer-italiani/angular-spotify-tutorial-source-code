@@ -1,7 +1,12 @@
 {
-  "/authorize/*": {
-    "target": "https://accounts.spotify.commm",
+  "/**": {
+    "target": {
+      "host": "accounts.spotify.com",
+      "protocol": "https:",
+      "port": 443
+    },
     "secure": false,
-    "logLevel": "debug"
+    "changeOrigin": true,
+    "logLevel": "info"
   }
 }

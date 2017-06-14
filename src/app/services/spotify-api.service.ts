@@ -3,8 +3,8 @@ import { Http, RequestOptions, Headers } from '@angular/http';
 
 @Injectable()
 export class SpotifyAPIService {
-  client_id = "[YOUR OWN CLIENT ID]";
-  client_secret = "[YOUR OWN SECRET KEY]";
+  client_id = "c45325aad4bc420ca34fb1bdfe9a2ab1";
+  client_secret = "f752ef01bed04d4b87a459ed56eda73f";
 
   private accessToken: any;
   private tokenType: string;
@@ -12,7 +12,8 @@ export class SpotifyAPIService {
   constructor(private http: Http) { }
 
   login() {
-    let authorizationTokenUrl = `https://accounts.spotify.com/api/token`;
+    // let authorizationTokenUrl = `https://accounts.spotify.com/api/token`;
+    let authorizationTokenUrl = `/api/token`;
 
     let header = new Headers();
     header.append('Authorization', 'Basic  ' + btoa(this.client_id + ':' + this.client_secret));
