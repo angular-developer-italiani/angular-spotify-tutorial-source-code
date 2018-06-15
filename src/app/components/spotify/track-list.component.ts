@@ -18,6 +18,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
             *ngFor="let t of album.tracks.items; let i = index"
             (click)="trackClick.emit(t)"
             [style.color]="t.id === track?.id ? 'orange' : null"
+            [style.color]="t.preview_url === null ? 'red' : null"
             >
             {{i+1}}. {{t.name}} - {{t.duration_ms | secsToTime: true}} 
           </div>
