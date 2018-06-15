@@ -69,7 +69,9 @@ export class AppComponent implements OnDestroy {
   playTrack(track: Track) {
     if (this.track && this.track.id === track.id) { return; }
     this.track = track;
-    this.spotifyAudio.playAudioTrack(track.preview_url)
+    if (track.preview_url) {
+      this.spotifyAudio.playAudioTrack(track.preview_url);
+    }
   }
 
   closeModal() {
